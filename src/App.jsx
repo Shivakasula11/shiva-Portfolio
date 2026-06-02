@@ -3,14 +3,14 @@ import { AnimatePresence, motion } from 'motion/react';
 import { CheckCircle } from 'lucide-react';
 import { Box, Typography } from '@mui/material';
 
-import Navbar      from './components/Navbar.jsx';
-import Hero        from './components/Hero.jsx';
-import About       from './components/About.jsx';
-import Skills      from './components/Skills.jsx';
-import Projects    from './components/Projects.jsx';
-import Experience  from './components/Experience.jsx';
-import Contact     from './components/Contact.jsx';
-import ScrollToTop from './components/ScrollToTop.jsx';
+import Navbar      from './Components/Navbar.jsx';       
+import Hero        from './Components/Hero.jsx';         
+import About       from './Components/About.jsx';        
+import Skills      from './Components/Skills.jsx';       
+import Projects    from './Components/Projects.jsx';     
+import Experience  from './Components/Experience.jsx';   
+import Contact     from './Components/Contact.jsx';      
+import ScrollToTop from './Components/ScrollToTop.jsx';  
  import AIChatBot   from './Components/AIChatBot.jsx';
 
 export default function App() {
