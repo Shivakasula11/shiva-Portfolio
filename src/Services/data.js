@@ -1,7 +1,7 @@
 ﻿import Portal  from '../assets/Portal.png'; 
 import Solar   from '../assets/Solar.png';
 import Coffee from '../assets/Coffe.jpg';
-import HM from '../assets/H&M.jpg';
+import HM from '../assets/HM.jpg';
 import Box from '../assets/Box-cric.jpg'
 
 export const developerProfile = {
