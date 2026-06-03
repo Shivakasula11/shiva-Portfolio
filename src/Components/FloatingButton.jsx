@@ -5,7 +5,7 @@
 import { motion } from 'motion/react';
 import { Box } from '@mui/material';
 import { MessageSquare, X } from 'lucide-react';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 
 export default function FloatingButton({ isOpen, showNotification, onClick }) {
   return (

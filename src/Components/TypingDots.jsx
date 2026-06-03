@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 
 export default function TypingDots() {
   return (

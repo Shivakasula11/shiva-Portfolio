@@ -5,7 +5,7 @@
 import { motion } from 'motion/react';
 import { Box, Typography, IconButton } from '@mui/material';
 import { Sparkles, X } from 'lucide-react';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 
 export default function NotificationCard({ onOpen, onDismiss }) {
   return (

@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { Box } from '@mui/material';
 import { Bot } from 'lucide-react';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 import MessageBubble from './MessageBubble';
 import TypingDots from './TypingDots';
 

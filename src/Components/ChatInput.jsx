@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Box, Typography, InputBase } from '@mui/material';
 import { Send } from 'lucide-react';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 
 export default function ChatInput({ inputRef, isLoading, onSubmit }) {
   const [message, setMessage] = useState('');

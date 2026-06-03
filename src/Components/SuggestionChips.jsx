@@ -3,7 +3,7 @@
 // ══════════════════════════════════════════════════════════════
 
 import { Box, Chip } from '@mui/material';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 
 const DEFAULT_SUGGESTIONS = [
   { label: '👤 About Me',   text: 'Tell me about yourself.' },
