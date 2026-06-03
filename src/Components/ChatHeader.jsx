@@ -1,6 +1,6 @@
 import { Box, Typography, IconButton, Tooltip } from '@mui/material';
 import { Bot, RefreshCw, X } from 'lucide-react';
-import { C } from '../hooks/constants';
+import { C } from '../hooks/Constants';
 
 export default function ChatHeader({ onReset, onClose }) {
   return (
