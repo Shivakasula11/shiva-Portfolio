@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Image compression backups (large originals kept locally only)
+src/assets/_originals/
