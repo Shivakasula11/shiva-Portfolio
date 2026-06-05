@@ -89,6 +89,17 @@ The site was optimized for discoverability through SEO best practices, including
       tech: ['HTML', 'CSS', 'JavaScript'],
       features: ['Engaging visual design', 'Smooth scroll animations', 'Responsive across devices', 'Menu showcase section'],
     },
+    {
+    name: 'AI-Powered Mock Test Platform',
+    description: 'A proctored mock test platform with Developer and Non-Developer tracks, featuring AI-generated course-specific questions across Aptitude, MCQ, and Coding sections with real-time AI proctoring.',
+    tech: ['React JS', 'TensorFlow.js', 'Web Workers', 'REST APIs', 'Material UI'],
+    features: [
+      'Real-time AI proctoring with TensorFlow.js (BlazeFace + COCO-SSD) in Web Workers — face detection, gaze tracking, and auto-termination on violations',
+      'Full browser lockdown — fullscreen enforcement, tab-switch detection, 18+ blocked shortcuts, and copy-paste prevention',
+      'Session auto-save with crash recovery using sendBeacon for seamless test resume',
+      'Split-pane code editor with live execution for the Coding section',
+    ],
+  },
   ],
 
   certifications: [

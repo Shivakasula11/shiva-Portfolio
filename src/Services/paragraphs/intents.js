@@ -64,7 +64,7 @@ export const INTENTS = [
       "who is shiva",
     ],
     response: () =>
-      `${getTimeGreeting()}\n\nHere's what I can tell you about:\n- **👤 About Me** — Who is Shiva?\n- **🛠️ Skills** — Technical & soft skills\n- **🚀 Projects** — 5 real-world projects\n- **💼 Experience** — Current role at Lanciere Technologies\n- **💪 Strengths** — What makes me stand out\n- **🎓 Education** — Academic background\n- **📞 Contact** — Get in touch`,
+      `${getTimeGreeting()}\n\nHere's what I can tell you about:\n- **👤 About Me** — Who is Shiva?\n- **🛠️ Skills** — Technical & soft skills\n- **🚀 Projects** — ${P.projects.length} real-world projects\n- **💼 Experience** — Current role at Lanciere Technologies\n- **💪 Strengths** — What makes me stand out\n- **🎓 Education** — Academic background\n- **📞 Contact** — Get in touch`,
   },
   {
     id: "about",
@@ -323,6 +323,29 @@ export const INTENTS = [
     keywords: ["coffee", "coffee website", "cafe", "coffee shop"],
     response: () => {
       const p = P.projects[4];
+      const features = p.features.map((f) => `- ${f}`).join("\n");
+      return `**${p.name}**\n\n${p.description}\n\n**Tech Stack:** ${p.tech.join(", ")}\n\n**Key Features:**\n${features}`;
+    },
+  },
+
+  {
+    id: "ai_mock_test",
+    label: "🤖 AI Mock Test",
+    exampleQuery: "Tell me about the AI Mock Test Platform",
+    keywords: [
+      "mock test",
+      "ai mock test",
+      "mock test platform",
+      "proctoring",
+      "proctored",
+      "tensorflow",
+      "test platform",
+      "ai project",
+      "exam platform",
+      "online test",
+    ],
+    response: () => {
+      const p = P.projects[5];
       const features = p.features.map((f) => `- ${f}`).join("\n");
       return `**${p.name}**\n\n${p.description}\n\n**Tech Stack:** ${p.tech.join(", ")}\n\n**Key Features:**\n${features}`;
     },
