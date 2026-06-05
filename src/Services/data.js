@@ -3,6 +3,7 @@ import Solar   from '../assets/Solar.png';
 import Coffee from '../assets/Coffe.jpg';
 import HM from '../assets/HM.jpg';
 import Box from '../assets/Box-cric.jpg'
+import Interview from '../assets/Interview.png';
 
 export const developerProfile = {
   name:       'Kasula Shiva',
@@ -61,7 +62,7 @@ export const projects = [
     techStack:   [  'HTML', 'CSS',' JS', ],
     githubUrl:   'https://github.com/Shivakasula11/H-M.git',
     demoUrl:     '#',
-    category:    'Frontend ',
+    category:    'E-commerce', 
     featured:    true,
        imageUrl: HM,
 
@@ -70,10 +71,10 @@ export const projects = [
     id:          'p2',
     name:        'Box-Cricket Booking Platform',
     description: 'Developed a responsive and interactive Box Cricket Venue Booking Platform using React JS, enabling users to discover, explore, and book nearby box cricket venues with ease. Implemented features such as venue listings, detailed venue information, availability checking, online booking functionality, and dynamic search capabilities to enhance the user experience. Leveraged React’s component-based architecture to build reusable and scalable UI components, ensuring maintainability and efficient performance..',
-    techStack:   ['React JS', 'Vite',  'React Router DOM', ],
+    techStack:   [ 'HTML', 'CSS', 'JavaScript', 'React JS',    ],
     githubUrl:   'https://github.com/Shivakasula11/BoxCricketApp.git',
     demoUrl:     '#',
-    category:    'Frontend ',
+    category:    'Sports & Recreation',
    imagePosition: 'center',
     featured:    true,
     imageUrl: Box,
@@ -86,7 +87,7 @@ export const projects = [
     githubUrl:   'https://github.com/Shivakasula11',
     imagePosition: 'center',  
     demoUrl:     '#',
-    category:    'Productivity',
+    category:    'Food & Beverage',
     featured:    true,
     imageUrl:    Coffee,
   },
@@ -97,7 +98,7 @@ export const projects = [
     techStack:   ['React JS', 'REST APIs', 'JWT Tokens', 'Material UI', 'Custom Hooks'],
     githubUrl:   'https://github.com/Shivakasula11',
     demoUrl:     '#',
-    category:    'Data Visualization',
+    category:    'Employee Management',
     featured:    true,
     imageUrl:    Portal,
   },
@@ -109,10 +110,31 @@ export const projects = [
     techStack:   ['React JS', 'REST APIs', 'Material UI'],
     githubUrl:   'https://github.com/Shivakasula11',
     demoUrl:     '#',
-    category:    'Data Visualization',
+    category:    'Energy & Sustainability',
     featured:    true,
     imageUrl:    Solar,
   },
+
+  
+   {
+  id:          'p6',
+  name:        'AI-Powered Mock Test Platform',
+  description: `Built the frontend for a proctored mock test platform with Developer and Non-Developer tracks, featuring course-specific question generation across Aptitude, MCQ, and Coding sections.
+- Integrated real-time AI proctoring using TensorFlow.js (BlazeFace + COCO-SSD) in Web Workers for face detection, gaze tracking, and auto-termination on violations.
+- Implemented full browser lockdown — fullscreen enforcement, tab-switch detection, history flooding, 18+ blocked shortcuts, and copy-paste prevention.
+- Developed session auto-save with crash recovery using sendBeacon for seamless test resume after browser crashes or accidental closures.
+- Built a split-pane code editor with live execution for the Coding section.`,
+  techStack:   ['React JS', 'TensorFlow.js', 'Web Workers', 'REST APIs', 'Material UI'],
+  githubUrl:   'https://github.com/Shivakasula11',
+  demoUrl:     '#',
+  category:    'AI / Web App',
+  featured:    true,
+   imageUrl:    Interview, 
+},
+
+
+
+
 ];
 
 export const experiences = [
